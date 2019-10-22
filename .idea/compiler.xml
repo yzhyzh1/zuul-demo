@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myapi" />
+        <module name="zuul" />
+        <module name="eureka-server" />
+        <module name="serviceB" />
+        <module name="serviceA" />
+        <module name="service-a-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.6" />
+      <module name="feign-demo" target="1.6" />
+      <module name="myapi" target="1.6" />
+      <module name="service-a-api" target="1.6" />
+      <module name="serviceA" target="1.6" />
+      <module name="serviceB" target="1.6" />
+      <module name="zuul" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
